@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.navbar{
+    background-color: rgb(37, 37, 37);
+  
+}
+
+.nav-list{
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.nav-list li{
+    padding: 20px;
+}
+.nav-list li a{
+    transition: 2s;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: rgb(19, 252, 252);
+}
+
+.section-2 img{
+   display: flex;
+   position: relative;
+   margin: 10px;
+   padding: 10px;
+
+   
+}
+.section-1 h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 20px;
+   
+}
+
+.section-3 p{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin: 20px;
+    font-weight: 100;
+}
+
+.search-movie h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    
+}
+
+.movies-container{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 50px;
+    
+   
+}
+
+.movie{
+    border-radius: 1px;
+    background-color: rgb(70, 70, 70);
+    
+}
+.movie h3{
+    color: white;
+}
+
+.movie:hover{
+    border-radius: 1px;
+    transform: scale(1.21);
+    transition: transform 0.5;
+}
+
+.container-1{
+    
+    color: white;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 46px;
+    padding: 50px;
+    border-radius: 2px solid rgb(150, 147, 147);
+    transition: 1s;
+
+}
+
+.container-2{
+    color: white;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+ 
+
+.movie-item{
+    border-radius: 2px solid white;
+    background-color: rgb(70, 70, 70);
+    transition: transform 1s;
+
+}
+
+.btn-play{
+    position: relative;
+    bottom: 80px;
+    z-index: 5;
+    transform: scale(3);
+}
+.movie-item a{
+    text-decoration: none;
+    color: white;
+}
+.movie-item:hover{
+    border-radius: 1px;
+    transform: scale(1.21);
+    
+}
+.movie-item img:hover {
+   
+    opacity: 0.7;
+}
+.movie-item h3{
+    color: white;
+}
+
+.movie-item span{
+    color: white;
+}
+
+.container-box{
+    background-color: rgba(61, 59, 59, 0.267);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px solid white;
+    margin-top: 100px;
+    position: relative;
+    left: 24px;
+    margin-left: 300px;
+    padding: 50px;
+    margin-bottom: 150px;
+    width: 500px;
+    height: 750px;
+}
+
+.container-box .section-4{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+
+.container-box .section-4{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+  
+  
+}
+
+.container-box h2{
+    color: red;
+    font-family: sans-serif;
+
+   
+}
+
+.container-box p{
+   padding-top: none;
+   margin-bottom: 40px;
+}
+
+.container-box button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+   
+}
+
+
+iframe{
+    height: 750px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+.button{
+ 
+   color: white;
+   display: flex;
+   text-align: center;
+   border-radius: 10px;
+   margin-left: 540px;
+   margin-bottom: 50px;
+   padding: 30px;
+   height: 60px;
+   width: 30px;
+}
+
+.button button:hover{
+    color: rgb(19, 252, 252);
+    border-radius: 2px;
+}
+
+.button a{
+    transition: 2s;
+    color: white;
+    padding: 2px;
+}
+.btn-play{
+   opacity: 0; 
+   transition: opacity 1s ease;
+}
+
+
+.movie-item:hover .btn-play{
+    opacity: 1;
+    
+}
+
+footer{
+    position: fixed;
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    bottom: 0;
+}
